@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WebGL 2D Triangle</title>
+</head>
+<body>
+    <canvas id="glCanvas" width="600" height="350"></canvas>
+    <style>
+        #glCanvas {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border: 2px solid black;
+        }
+    </style>
+
+    <button id="blueButton">Blue</button>
+    <button id="pinkButton">Pink</button>
+    <button id="yellowButton">Yellow</button>
+    <button id="resetButton">Reset</button>
+    <style>
+        .button {
+            position: absolute;
+            top: calc(50% + 200px);
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        #blueButton {
+        width: 100px;
+        height: 50px;
+        font-size: 20px;
+        position: absolute;
+        top: calc(50% + 250px);
+        left: 40%;
+        transform: translate(-50%, -50%);
+        }
+
+        #pinkButton {
+        width: 100px;
+        height: 50px;
+        font-size: 20px;
+        position: absolute;
+        top: calc(50% + 250px);
+        left: 50%;
+        transform: translate(-50%, -50%);
+        }
+
+        #yellowButton {
+        width: 100px;
+        height: 50px;
+        font-size: 20px;
+        position: absolute;
+        top: calc(50% + 250px);
+        left: 60%;
+        transform: translate(-50%, -50%);
+        }
+
+        #resetButton {
+        width: 150px;
+        height: 50px;
+        font-size: 22px;
+        position: absolute;
+        top: calc(50% + 250px);
+        left: 75%;
+        transform: translate(-50%, -50%);
+        }
+    </style>
+    <script type="module" src="app.js"></script>
+</body>
+</html>
